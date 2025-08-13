@@ -1,0 +1,103 @@
+/*
+Aug-25 Today's Practical Task...
+
+Q1. Write a java program to display message  "This is first java program".
+	
+Q2. Write a java program to input all basic data types and print its output.
+	
+	Example :-
+	
+	Input :-   int a=2 ;              
+					char ch='A' ;
+					float f=3.14f;
+					double d=2.34647;
+					long b=1234545;
+	
+	Output:-	 a=2 ;              
+					    ch='A' ;
+					    f=3.14f;
+					    d=2.34647;
+					    b=1234545;
+					 
+Q 3. Write a java program to enter two numbers and perform all arithmetic operations.
+	
+Q 4. Write a java program to enter length and breadth of a rectangle and find its area.
+	
+		Formula -  area= length * breadth;
+	 
+Q 5. Write a java program to enter radius of a circle and find its diameter,area and circumference.
+		Formula :-
+					diameter=2 * radius;
+					circumference = 2 * 3.14 * radius;
+					area = 3.14 * radius * radius;
+					*/
+	
+
+/*Q1. Write a java program to display message  "This is first java program".*/
+/*
+public class Day1
+	{
+		public static void main(String x[])
+		{
+			System.out.println("This is a first java program");
+		}
+	}
+*/
+/*	
+C:\Program Files\Java\jdk-24\bin>javac Day1.java
+C:\Program Files\Java\jdk-24\bin>java Day1
+This is a first java program
+*/
+
+/*
+Q2. Write a java program to input all basic data types and print its output.
+	
+	Example :-
+	
+	Input :-        int a=2 ;              
+					char ch='A' ;
+					float f=3.14f;
+					double d=2.34647;
+					long b=1234545;
+	
+	Output:-	        a=2 ;              
+					    ch='A' ;
+					    f=3.14f;
+					    d=2.34647;
+					    b=1234545;
+*/
+/*
+public class Day1
+	{
+		public static void main(String x[])
+		{
+				    int a=2 ;              
+					char ch='A' ;
+					float f=3.14f;
+					double d=2.34647;
+					long b=1234545;
+					
+			System.out.println("a= "+a);
+			System.out.println("ch= "+ch);
+			System.out.println("f= "+f);
+			System.out.println("d= "+d);
+			System.out.println("b= "+b);
+		}
+	}
+*/	
+	
+/*	
+C:\Program Files\Java\jdk-24\bin>javac Day1.java
+C:\Program Files\Java\jdk-24\bin>java Day1
+a= 2
+ch= A
+f= 3.14
+d= 2.34647
+b= 1234545
+*/
+
+/*Q 3. Write a java program to enter two numbers and perform all arithmetic operations.*/
+
+public
+	
+	
