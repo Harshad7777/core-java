@@ -1,0 +1,65 @@
+/*
+Q1. Write a java program to enter length in centimeter and convert into meter and kilometer.
+Q2. Write a java program to enter temperature in Fahrenheit and convert to Celsius.
+	Formula :- cel = (fah - 32) * 5 / 9;
+Q3. Write a java program to enter temperature in Celsius and convert it into Fahrenheit.
+	Formula :- fah = (cel * 9 / 5) + 32;
+Q4. Write a java program to enter two angles of a triangle and find the third angle. 
+Q5. Write a java program to calculate area of an equilateral triangle.
+Q6. Write a java program to enter marks of five subjects and calculate total marks and percentage.
+
+Q7. Write a java program to calculate the simple intrest. 
+Q8. Write a java program to calculate the compound intrest.
+Q9. Write a java program swap two number using third variable.
+Q10. Write a java program swap two number without using third variable
+*/
+/*
+Q1. Write a java program to enter length in centimeter and convert into meter and kilometer.
+*/
+/*
+public class Converter
+	{
+		public static void main(String x[])
+			{
+			  double centimeter,meter,kilometer;
+			  
+			  centimeter = Integer.parseInt(x[0]);
+	
+				meter = centimeter/100;
+			    kilometer = centimeter/100000;
+			  
+				System.out.println("convert into meter:"+meter);
+				System.out.println("convert into kilometer:"+kilometer);
+				
+			}
+	}
+*/
+	
+/*
+import java.util.*;
+public class Day2
+{
+	public static void main (String x[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter value in centimeter:");
+		double centimeter = sc.nextDouble();
+		
+		
+		 double meter = centimeter/100;
+		 double kilometer = centimeter/100000;
+		
+		System.out.println("meter :"+meter);
+		System.out.println("kilometer :"+kilometer);
+	}
+}
+*/
+
+/*
+C:\Program Files\Java\jdk-24\bin>javac Day2.java
+C:\Program Files\Java\jdk-24\bin>java Day2
+enter value in centimeter:
+100
+meter :1.0
+kilometer :0.001
+*/
