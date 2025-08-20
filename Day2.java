@@ -13,7 +13,7 @@ Q8. Write a java program to calculate the compound intrest.
 Q9. Write a java program swap two number using third variable.
 Q10. Write a java program swap two number without using third variable
 */
-/*
+/*-------------------------------------------------------------------------------------------------------------------------------------
 Q1. Write a java program to enter length in centimeter and convert into meter and kilometer.
 */
 /*
@@ -63,7 +63,7 @@ enter value in centimeter:
 meter :1.0
 kilometer :0.001
 */
-
+/*-------------------------------------------------------------------------------------------------------------------------------------
 /*
 Q2. Write a java program to enter temperature in Fahrenheit and convert to Celsius.
 	Formula :- cel = (fah - 32) * 5 / 9;
@@ -105,24 +105,78 @@ C:\Program Files\Java\jdk-24\bin>javac Day2.java
 C:\Program Files\Java\jdk-24\bin>java Day2 100
 temperature in Fahrenheit and convert to Celsius :37.77777777777778
 */
+/*-------------------------------------------------------------------------------------------------------------------------------------
 /*
 Q3. Write a java program to enter temperature in Celsius and convert it into Fahrenheit.
 	Formula :- fah = (cel * 9 / 5) + 32;
 */
-import java.util.*;
-public class Day2
-{
-	public static void main (String x[])
-	{
-		Scanner sc = new Scanner(System.in);
-		System.out.println("enter temp in Fahrenheit:");
-		double fah = sc.nextDouble();
+
+// import java.util.*;
+// public class Day2
+// {
+// 	public static void main (String x[])
+// 	{
+// 		Scanner sc = new Scanner(System.in);
+// 		System.out.println("enter temp in Fahrenheit:");
+// 		double fah = sc.nextDouble();
 	
+// 		double cel = (fah - 32) * 5 / 9;
 		
-		double cel = (fah - 32) * 5 / 9;
+// 		System.out.println("temperature in Fahrenheit and convert to Celsius :"+cel);
+// 	}
+// }
+
+// PS C:\Users\harsh\Downloads\java course notes\java> java Day2      
+// enter temp in Fahrenheit:
+// 100
+// temperature in Fahrenheit and convert to Celsius :37.77777777777778
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+// Q4. Write a java program to enter two angles of a triangle and find the third angle. 
+
+// import java.util.*;
+// public class Day2
+// {
+// 	public static void main (String x[])
+// 	{
+// 		Scanner sc = new Scanner(System.in);
+// 		System.out.println("enter first angle:");
+// 		double angle1 = sc.nextDouble();
+
+// 		System.out.println("enter second angle:");
+// 		double angle2 = sc.nextDouble();
+
+// 		double angle3 = 180 - ( angle1 + angle2);
 		
-		System.out.println("temperature in Fahrenheit and convert to Celsius :"+cel);
-	}
-}
+// 		System.out.println("third angle of triangle :"+angle3);
+// 	}
+// }
+
+// PS C:\Users\harsh\Downloads\java course notes\java> javac Day2.java
+// PS C:\Users\harsh\Downloads\java course notes\java> java Day2      
+// enter first angle:
+// 30
+// enter second angle:
+// 60
+// third angle of triangle :90.0
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+// Q5. Write a java program to calculate area of an equilateral triangle.
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------
+// Q6. Write a java program to enter marks of five subjects and calculate total marks and percentage.
+//-------------------------------------------------------------------------------------------------------------------------------------
+
+// Q7. Write a java program to calculate the simple intrest. 
+//-------------------------------------------------------------------------------------------------------------------------------------
+// Q8. Write a java program to calculate the compound intrest.
+//-------------------------------------------------------------------------------------------------------------------------------------
+// Q9. Write a java program swap two number using third variable.
+//-------------------------------------------------------------------------------------------------------------------------------------
+// Q10. Write a java program swap two number without using third variable
+//-------------------------------------------------------------------------------------------------------------------------------------
 
 
