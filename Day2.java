@@ -105,6 +105,24 @@ C:\Program Files\Java\jdk-24\bin>javac Day2.java
 C:\Program Files\Java\jdk-24\bin>java Day2 100
 temperature in Fahrenheit and convert to Celsius :37.77777777777778
 */
-
+/*
+Q3. Write a java program to enter temperature in Celsius and convert it into Fahrenheit.
+	Formula :- fah = (cel * 9 / 5) + 32;
+*/
+import java.util.*;
+public class Day2
+{
+	public static void main (String x[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter temp in Fahrenheit:");
+		double fah = sc.nextDouble();
+	
+		
+		double cel = (fah - 32) * 5 / 9;
+		
+		System.out.println("temperature in Fahrenheit and convert to Celsius :"+cel);
+	}
+}
 
 
