@@ -165,12 +165,132 @@ Q3. Write a java program to enter temperature in Celsius and convert it into Fah
 
 // Q5. Write a java program to calculate area of an equilateral triangle.
 
+// import java.util.*;
+// public class Day2
+// {
+// 	public static void main (String x[])
+// 	{
+// 		Scanner sc = new Scanner(System.in);
+// 		System.out.println("enter side length:");
+// 		double side = sc.nextDouble();
+
+//         double area = (Math.sqrt(3) / 4) * side * side;
+
+// 		System.out.println("area of equilateral triangle :"+area);
+// 	}
+// }
+
+// PS C:\Users\harsh\Downloads\java course notes\java> javac Day2.java
+// PS C:\Users\harsh\Downloads\java course notes\java> java Day2
+// enter side length:
+// 10 
+// area of equilateral triangle :43.301270189221924
 
 //-------------------------------------------------------------------------------------------------------------------------------------
 // Q6. Write a java program to enter marks of five subjects and calculate total marks and percentage.
+
+// import java.util.*;
+// public class Day2
+// {
+// 	public static void main (String x[])
+// 	{
+// 		Scanner sc = new Scanner(System.in);
+// 		System.out.println("enter marks of subject 1:");
+// 		double sub1 = sc.nextDouble();
+// 		System.out.println("enter marks of subject 2:");
+// 		double sub2 = sc.nextDouble();
+// 		System.out.println("enter marks of subject 3:");
+// 		double sub3 = sc.nextDouble();
+// 		System.out.println("enter marks of subject 4:");
+// 		double sub4 = sc.nextDouble();
+// 		System.out.println("enter marks of subject 5:");
+// 		double sub5 = sc.nextDouble();
+
+// 		double total = sub1 + sub2 + sub3 + sub4 + sub5;
+// 		double percentage = (total / 500) * 100;
+
+// 		System.out.println("total marks :"+total);
+// 		System.out.println("percentage :"+percentage);
+// 	}
+// }
+
+// PS C:\Users\harsh\Downloads\java course notes\java> javac Day2.java    
+// PS C:\Users\harsh\Downloads\java course notes\java> java Day2      
+// enter marks of subject 1:
+// 70
+// enter marks of subject 2:
+// 70
+// enter marks of subject 3:
+// 80
+// enter marks of subject 4:
+// 90
+// enter marks of subject 5:
+// 95
+// total marks :405.0
+// percentage :81.0
+
+
 //-------------------------------------------------------------------------------------------------------------------------------------
 
-// Q7. Write a java program to calculate the simple intrest. 
+//  Q7. Write a java program to calculate the simple intrest. 
+
+// import java.util.*;
+// public class Day2
+// {
+// 	public static void main (String x[])
+// 	{
+// 		Scanner sc = new Scanner(System.in);
+// 		System.out.println("enter principal amount:");
+// 		double  principal_amount = sc.nextDouble();
+// 		System.out.println("enter interest rate:");
+// 		double interest_rate = sc.nextDouble();
+// 		System.out.println("enter period:");
+// 		double  period = sc.nextDouble();
+
+// 		double total = (principal_amount * interest_rate * period) / 100;
+// 		System.out.println("total interest :"+total);
+// 	}
+// }
+
+// import java.util.Scanner;
+// public class Day2
+// 	{
+// 		public static void main(String x[])
+// 			{
+// 				Scanner sc = new Scanner(System.in);
+				
+// 				System.out.println("enter the amount:");
+// 				double PrincipalAmount = sc.nextDouble();
+				  
+// 				System.out.println("enter the intrest:");
+// 				double Intrest = sc.nextDouble ();
+				
+// 				System.out.println("enter time:");
+// 				double Time = sc.nextDouble ();
+				
+// 				double calculatethesimpleintrest = (PrincipalAmount*Intrest*Time)/100;
+				
+// 				double Amount = PrincipalAmount*Math.pow((1 + Intrest/100),Time);
+// 				double compundInterest = Amount - PrincipalAmount;
+				
+// 				System.out.println("intrest is a:"+calculatethesimpleintrest);
+// 				System.out.println("compundInterest is a:"+compundInterest);
+			
+// 			}
+// 	}
+
+// PS C:\Users\harsh\Downloads\java course notes\java> javac Day2.java
+// PS C:\Users\harsh\Downloads\java course notes\java> java Day2      
+// enter the amount:
+// 10000
+// enter the intrest:
+// 12
+// enter time:
+// 2
+// intrest is a:2400.0
+// compundInterest is a:2544.000000000002
+
+
 //-------------------------------------------------------------------------------------------------------------------------------------
 // Q8. Write a java program to calculate the compound intrest.
 //-------------------------------------------------------------------------------------------------------------------------------------
@@ -178,5 +298,10 @@ Q3. Write a java program to enter temperature in Celsius and convert it into Fah
 //-------------------------------------------------------------------------------------------------------------------------------------
 // Q10. Write a java program swap two number without using third variable
 //-------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
 
 
