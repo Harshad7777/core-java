@@ -943,12 +943,13 @@ public class aug_operator_mcq50
 System.out.println((++a + a++) * (--a + a--));
 	}
 }
-
+	
+/
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 16
-----------------------------------------------------------------------*/
+
 /*------------------------------------------------------------------
 
 Q46. What will be output of the given code.
@@ -957,17 +958,19 @@ int x = 3;
 x = x- - + x++ + - -x;
 System.out.println(x);
 
-
+*/
 
 public class aug_operator_mcq50
 {
 	public static void main (String x1[])
 	{	
 		int x = 3;
-x = x- - + x++ + - -x;
+x = x- - + x++ + --x;
 System.out.println(x);
 	}
 }
+
+/* 
 C:\Program Files\Java\jdk-24\bin>javac aug_operator_mcq50.java
 C:\Program Files\Java\jdk-24\bin>java aug_operator_mcq50
 10

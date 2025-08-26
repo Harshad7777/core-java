@@ -567,13 +567,101 @@
 // no
 
 //----------------------------------second set ---------------------------//
+// Second Set
+// Example1
+
+// Write a java program to check whether an alphabet is vowel or consonant using if else. How to check vowels and consonants using if else in java programming. Java Program to input a character from user and check whether it is vowel or consonant. Logic to check vowel or consonant in java programming.
+// Example
+// Input
+// Input character: a
+// Output
+// 'a' is vowel
+
 
 //-----------------------------------1code-----------------------------//
+
+// import java.util.*;
+// public class Aug22DecisionMakingStatement
+// {
+//     public static void main (String x[])
+//     {
+//         Scanner sc = new Scanner (System.in);
+		
+// 		System.out.println("enter the character");
+		
+// 		char ch = sc.next().charAt(0);
+		
+// 		if( ch=='a' |ch=='e'| ch=='i'| ch=='o' |ch=='u'|
+// 			ch=='A' |ch=='e'| ch=='i'| ch=='O' |ch=='u')
+// 		{
+// 			System.out.println("'"+ch+"'is vowel");
+// 		}
+// 		else
+// 		{
+// 			System.out.println("'"+ch+"'is vowel");
+// 		}
+// }
+// }
+
 //------------------------------------1output-----------------------------//
 
+// C:\Program Files\Java\jdk-24\bin>javac Aug22DecisionMakingStatement.java
+
+// C:\Program Files\Java\jdk-24\bin>java Aug22DecisionMakingStatement
+// enter the character
+// a
+// 'a'is vowel
 //----------------------------------2 problem ---------------------------//
+Example2
+Write a C program to check whether a triangle is valid or not if angles are given using if else. How to check whether a triangle can be formed or not, if its angles are given using if else in C programming. Logic to check triangle validity if angles are given in C program.
+Example
+Input 
+Input first angle: 60
+Input second angle: 30
+Input third angle: 90
+Output
+The triangle is valid
+
 //-----------------------------------2code-----------------------------//
+import java.util.*;
+public class Aug22DecisionMakingStatement
+{
+	public static void main (String x[])
+	{
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("enter first angle = ");
+		int A = sc.nextInt();
+		
+		System.out.println("enter second angle = ");
+		int B = sc.nextInt();
+		
+		System.out.println("enter third angle = ");
+		int C = sc.nextInt();
+		
+		if(A+B+C==180)
+		{
+			System.out.println("The triangle is valid");
+		}
+		else
+		{
+			System.out.println("The triangle is not valid");
+		}
+	}
+}
 //------------------------------------2output-----------------------------//
+
+
+C:\Program Files\Java\jdk-24\bin>javac Aug22DecisionMakingStatement.java
+
+C:\Program Files\Java\jdk-24\bin>java Aug22DecisionMakingStatement
+enter first angle =
+60
+enter second angle =
+30
+enter third angle =
+90
+The triangle is valid
 
 //----------------------------------3problem ---------------------------//
 //-----------------------------------3code-----------------------------//
@@ -609,7 +697,77 @@
 //------------------------------------10output -----------------------------//
 
 //----------------------------------11problem ---------------------------//
+// Example11
+// An automobile company manufactures both a two wheeler (TW) and a four wheeler (FW). A company manager wants to make the production of both types of vehicle according to the given data below:
+// •	1st data, Total number of vehicle (two-wheeler + four-wheeler)=v
+// •	2nd data, Total number of wheels = W
+// The task is to find how many two-wheelers as well as four-wheelers need to manufacture as per the given data.
+// Example :
+// Input :
+// •	200  -> Value of V
+// •	540   -> Value of W
+// Output :
+// •	TW =130 FW=70 
+// Explanation:
+// 130+70 = 200 vehicles
+// (70*4)+(130*2)= 540 wheels
+// Constraints :
+// •	2<=W
+// •	W%2=0
+// •	V<W
+// Print “INVALID INPUT” , if inputs did not meet the constraints.
+// The input format for testing 
+// The candidate has to write the code to accept two positive numbers separated by a new line.
+// •	First Input line – Accept value of V.
+// •	Second Input line- Accept value for W.
+
 //-----------------------------------11code-----------------------------//
+
+
+// import java.util.*;
+// public class aug22DecisionMakingStatement
+// {
+//     public static void main (String x[])
+//     {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("enter value of v");
+//         int V =sc.nextInt();
+
+//         System.out.println("enter value of w");
+//         int W = sc.nextInt();
+
+//        if(2<=W && W%2==0 && V<W)
+//         {
+// 			int f = W/2 -V;
+//             int t = V-f;
+//             System.out.println("total two wheelers = "+t);
+//             System.out.println("total four wheelers ="+f);
+//         }
+//         else
+//         {
+//           System.out.println("INVALID INPUT");
+
+//         };
+//     }
+// }
+
+// C:\Program Files\Java\jdk-24\bin>javac aug22DecisionMakingStatement.java
+
+// C:\Program Files\Java\jdk-24\bin>java aug22DecisionMakingStatement
+// enter value of v
+// 200
+// enter value of w
+// 540
+// total two wheelers = 130
+// total four wheelers =70
+
+// C:\Program Files\Java\jdk-24\bin>java aug22DecisionMakingStatement
+// enter value of v
+// 199
+// enter value of w
+// 541
+// INVALID INPUT
 //------------------------------------11output-----------------------------//
 
 //----------------------------------12problem ---------------------------//
