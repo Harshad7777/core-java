@@ -4,8 +4,10 @@ Q50. Given a number, print Perfect Square if its square root is an integer, othe
 
 import java.util.*;
 
-public class PerfectSquareCheck {
-    public static void main(String  x[] ) {
+public class PerfectSquareCheck 
+{
+    public static void main(String  x[] ) 
+	{
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a number: ");
