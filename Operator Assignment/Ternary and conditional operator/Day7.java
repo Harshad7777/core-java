@@ -82,30 +82,30 @@
 
 
 
-// import java.util.;
-// public class Day7
-// {
-// 	public static void main (String x[])
-// 	{
-// 		Scanner sc = new Scanner(System.in);
-// 		System.out.println(enter first 10);
-// 		int p = sc.nextInt();
+import java.util.;
+public class Day7
+{
+	public static void main (String x[])
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println(enter first 10);
+		int p = sc.nextInt();
 		
-// 		System.out.println(enter second 20);
-// 		int q = sc.nextInt();
+		System.out.println(enter second 20);
+		int q = sc.nextInt();
 		
-// 		System.out.println(enter second 15);
-// 		int r = sc.nextInt();
+		System.out.println(enter second 15);
+		int r = sc.nextInt();
 		
-// 		int msg = (p  q) 
+		int msg = (p  q) 
 		
-//                          ((p  r)  p  (q  r  q  r)) 
-//                          ((q  r)  q  (p  r  p  r));
+                         ((p  r)  p  (q  r  q  r)) 
+                         ((q  r)  q  (p  r  p  r));
 		
-// 		System.out.println(middle value among three distinct integers p, q, and r is +msg);	
+		System.out.println(middle value among three distinct integers p, q, and r is +msg);	cd
 		
-// 	}
-// }
+	}
+}
 
 
 // CProgram FilesJavajdk-24binjavac Day7.java

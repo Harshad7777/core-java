@@ -31,7 +31,6 @@ public class numberpositivenegativezero
 }
 
 >javac numberpositivenegativezero.java
-
 >java numberpositivenegativezero
 enter number
 1
