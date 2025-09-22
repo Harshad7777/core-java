@@ -71,8 +71,8 @@ public class Day1
 	{
 		public static void main(String x[])
 		{
-				    int a=2 ;              
-					char ch='A' ;
+				    int a=2 ;             
+					char ch='A';
 					float f=3.14f;
 					double d=2.34647;
 					long b=1234545;
@@ -170,7 +170,7 @@ public class Day1
 	{
 		double radius = Double.parseDouble(x[0]);
 		
-		double diameter= 2*radius;
+		double diameter= 2 * radius;
 		double circumference= 2*3.14*radius;
 		double area =3.14 * radius *radius;
 		
