@@ -1,6 +1,6 @@
 /*
 Q24. Write a java program to Check Number Is Strong Number or Not.
-Example : A strong number is one in which the factorial of the digits equals the number itself. 1, 2, 145,
+Example : A strong number is one in which the factorial sum of the digits equals the number itself. 1, 2, 145,
 */
 
 
@@ -13,17 +13,17 @@ public class StrongNumberorNot24
 		
 		System.out.println(" enter number");
 	
-		int rem ;
+		
 		int sum=0;
 		
 		int num = sc.nextInt(); //145
 		int temp = num;
-		int f = 1;
+		
 		
 		while(num!=0)
 		{	
-			 rem = num % 10; //5
-			
+			 int rem = num % 10; //5
+			int f = 1;
 			while(rem!=0)
 			{
 			       f=f*rem;
@@ -54,7 +54,7 @@ public class StrongNumberorNot24
 >java StrongNumberorNot24
  enter number
 145
-145 it is a not strong number
+145 it is a  strong number
 
 */
 			
