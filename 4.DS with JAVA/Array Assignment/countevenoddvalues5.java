@@ -44,7 +44,6 @@ public class countevenoddvalues5
 			if(a[i]%2==0)
 			{
 				evencount++;
-				
 			}
 		}
 		System.out.println(evencount);
