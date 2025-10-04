@@ -11,7 +11,7 @@ Even index positions are 0, 2, 4, ….
 Odd index positions are 1, 3, 5, ….
 We print the values according to their index category.
  */
-
+/* 
 import java.util.*;
 public class evenoddindexvalues4
 {
@@ -46,5 +46,43 @@ public class evenoddindexvalues4
 				System.out.println(arr[i]);
 			}
 		} 
+	}
+} */
+
+import java.util.*;
+public class evenoddindexvalues4
+{
+	public static void main(String x[])
+	{
+		int a[],i;
+		a = new int[6];
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter the values :");
+		for(i=0; i<a.length; i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		
+		
+		System.out.print("value at even index :");
+		for(i=0; i<a.length; i++)
+		{
+			if(i%2==0)
+			{
+				System.out.print(a[i]+" ");
+			}
+		}
+		System.out.println();
+		
+		System.out.print("value at odd index :");
+		for(i=0; i<a.length; i++)
+		{
+			if(i%2!=0)
+			{
+				System.out.print(a[i]+" ");
+			}
+		}
+		
 	}
 }

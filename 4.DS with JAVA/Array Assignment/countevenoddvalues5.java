@@ -18,7 +18,7 @@ Otherwise → increase oddCount.
 
 
 Final counts are displayed. */
-
+/* 
 import java.util.*;
 public class countevenoddvalues5
 {
@@ -58,5 +58,34 @@ public class countevenoddvalues5
 			}
 		} 
 		System.out.println(oddcount);
+	}
+}
+ */
+ 
+import java.util.*;
+public class countevenoddvalues5
+{
+	public static void main(String x[])
+	{
+		int a[];
+		int e_count=0 ,o_count=0;
+		a = new int[7];
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter value");
+		for(int i=0; i<a.length; i++)
+		{
+			a[i]=sc.nextInt();
+		}
+		
+		for(int i=0; i<a.length; i++)
+		{
+			if(a[i]%2==0)
+				e_count++;
+			else
+				o_count++;
+		}
+		System.out.println("Count of Even Values = "+e_count);
+		System.out.println("Count of odd Values = "+o_count);
 	}
 }

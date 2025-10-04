@@ -17,7 +17,7 @@ public class copyonearraytoanotherarray9
 		
 		System.out.println("enter the size");
 	    int size = sc.nextInt();
-		
+		//array 1
 		int a[] = new int[size];
 		
 		System.out.println("enter " + size +" element" );

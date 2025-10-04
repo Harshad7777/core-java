@@ -39,7 +39,8 @@ public class deleteelementatdesiredposition10
         } 
 		else 
 		{
-            // Shift elements left from pos
+            // Shift elements left from position
+			
             for (int i = pos - 1; i < size - 1; i++) 
 			{
                 a[i] = a[i + 1];

@@ -14,7 +14,7 @@ Traverse the array and keep adding each element to sum.
 After the loop ends, sum will hold the total of all array elements.
  */
 
- import java.util.*;
+ /* import java.util.*;
  
  public class sumofallelementsinarray2
  {
@@ -47,5 +47,26 @@ After the loop ends, sum will hold the total of all array elements.
 		}
 
 		System.out.println("\nsum of array " + sum);
+	 }
+ } */
+ 
+ import java.util.*;
+ public class sumofallelementsinarray2
+ {
+	 public static void main(String x[])
+	 {
+		 int a[];
+		 int sum = 0;
+		 a = new int[5];
+		 
+		 Scanner sc = new Scanner(System.in);
+		 System.out.println("enter the values");
+		 
+		 for(int i=0; i<a.length; i++)
+		 {
+			 a[i]=sc.nextInt();
+			 sum+=a[i];
+		 }
+		 System.out.print("sum ="+sum);
 	 }
  }

@@ -18,14 +18,14 @@ public class  missingelements8
 		int size = sc.nextInt();
 		
 		int a[] = new int[size];
-		//input
+		// input
 		System.out.println("enter " + size +" elements" );
 		for(int i=0; i<size; i++)
 		{
 			a[i]= sc.nextInt();
 		}
 		
-		//find the max in array	
+	//	find the max in array	
 		System.out.println("max value from array" );
 		
 		int max = a[0];
@@ -38,24 +38,21 @@ public class  missingelements8
 		}
 		System.out.println(max);
 		
-		//find missing value
-		System.out.println("missing value :" );
-		for(int i=1; i<max; i++)
-			{
-				boolean notfound = false;
-				for(int j=0; j<size; j++)
-					{
-						if(i ==a[j])
-						{
-							notfound = true;
-							break;
-						}
-					
-					}
-						if(!notfound)
-						{
-							System.out.println( i);
-						}	
-			}
-	}
+		//Find missing elements
+        System.out.println("Missing Elements:");
+        for(int j = 1; j <= max; j++) {
+            boolean found = false;
+            for(int i = 0; i < a.length; i++) {
+                if(a[i] == j) {
+                    found = true;
+                    break;
+                }
+            }
+            if(!found) {
+                System.out.print(j + " ");
+            }
+        }
+    }
 }
+
+

@@ -17,7 +17,6 @@ Incrementing by one gives 4321 + 1 = 4322.
 Thus, the result should be [4,3,2,2]. 
  */
  import java.util.*;
-
 public class PlusOneArray_44 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -56,50 +55,3 @@ public class PlusOneArray_44 {
         System.out.println("]");
     }
 }
-
-/* import java.util.*;
-
-public class PlusOneArray_44 
-{
-    public static void main(String[] args) 
-	{
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Enter number of digits:");
-        int n = sc.nextInt();
-        int[] digits = new int[n];
-
-        System.out.println("Enter digits:");
-        for (int i = 0; i < n; i++) 
-			digits[i] = sc.nextInt();
-
-        // Process from last digit
-        for (int i = n - 1; i >= 0; i--) 
-		{
-            if (digits[i] < 9) 
-			{
-                digits[i] += 1;
-                break;  // no carry, done
-            } 
-			else 
-			{
-                digits[i] = 0;  // carry over to next
-            }
-        }
-
-        // Check if first digit became 0, meaning we need extra space
-        if (digits[0] == 0) 
-		{
-            int[] result = new int[n + 1];
-            result[0] = 1;  // e.g., [9,9,9] → [1,0,0,0]
-            for (int i = 1; i <= n; i++) 
-			{ 
-				result[i] = 0;
-				digits = result;
-			}
-        }
-
-        System.out.println("Output:");
-        System.out.println(Arrays.toString(digits));
-    }
-} */

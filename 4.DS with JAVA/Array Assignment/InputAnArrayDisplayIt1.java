@@ -14,7 +14,7 @@ Then, elements are entered one by one into the array.
 Finally, using a loop, we display all elements in the same order they were entered.
  */
 
- import java.util.*;
+/*  import java.util.*;
  
  public class InputAnArrayDisplayIt1
  {
@@ -43,7 +43,7 @@ Finally, using a loop, we display all elements in the same order they were enter
 				 System.out.print(arr[i]+" "); 
 			 }  
 	 }
- }
+ } */
  
 /* >java InputAnArrayDisplayIt1.java
 enter five value in array
@@ -55,3 +55,28 @@ enter 5 elements:
 40
 50
 Array elements are:10 20 30 40 50 */
+
+import java.util.*;
+public class InputAnArrayDisplayIt1
+{
+	public static void main(String x[])
+	{
+		int a[];
+		a = new int[5];
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the  5 value");
+		
+		
+		for(int i=0; i<a.length; i++)
+		{
+			a[i] = sc.nextInt();
+			
+		}
+		
+		System.out.println("Display Series");
+		for(int i=0; i<a.length; i++)
+		{
+			System.out.print(a[i]+" ");
+		}
+	}
+}

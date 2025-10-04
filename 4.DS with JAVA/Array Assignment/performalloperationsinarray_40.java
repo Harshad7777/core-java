@@ -39,18 +39,39 @@ public class performalloperationsinarray_40
         int[] a = new int[size];
 
         System.out.println("Enter " + size + " elements:");
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size; i++)
+		{
             a[i] = sc.nextInt();
         }
 
         // Case 1: Sort digits of each number in Ascending Order
-        System.out.println("Case 1 : Sort Number In Ascending Order.");
+        /* System.out.println("Case 1 : Sort Number In Ascending Order.");
         for (int i = 0; i < size; i++) {
             char[] digits = String.valueOf(a[i]).toCharArray();
             Arrays.sort(digits);
             System.out.print(new String(digits) + " ");
-        }
-
+        } */
+		for(int i=0; i<a.length; i++)
+		{
+			for(int j=(i+1); i<a.length; j++)
+			{
+				if(a[i]>a[j])
+				{
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+		}
+		System.out.println("Display array after the sorting");
+		for(int i=0; i<a.length; i++)
+		{
+			System.out.print(" " +a[i]);
+		}
+}
+}	
+		/* 
+		
         // Case 2: Sort digits of each number in Descending Order
         System.out.println();
         System.out.println("Case 2 : Sort Number In Descending Order.");
@@ -104,7 +125,9 @@ public class performalloperationsinarray_40
             System.out.print(primes + " ");
         }
     }
-}
+} */
+
+
 
 
 

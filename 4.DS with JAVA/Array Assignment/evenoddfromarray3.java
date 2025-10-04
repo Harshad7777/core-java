@@ -11,7 +11,7 @@ If an element is divisible by 2, it is even. Otherwise, it is odd.
 Separate lists are displayed for even and odd values.
  */
 
- import java.util.*;
+/*  import java.util.*;
  
  public class evenoddfromarray3
  {
@@ -54,7 +54,7 @@ Separate lists are displayed for even and odd values.
 				}
 			}
 	}
- }
+ } */
  
  /* 
 >java evenoddfromarray3.java
@@ -77,3 +77,41 @@ odd Values
 55
 
 > */
+
+import java.util.*;
+public class evenoddfromarray3
+{
+	public static void main(String x[])
+	{
+		int a[], i;
+		a = new int[6];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter values");
+		for(i=0; i<a.length; i++)
+		{
+			a[i] = sc.nextInt();
+		}
+		
+		System.out.println("even values : ");
+		for(i=0; i<a.length; i++)
+		{
+			if(a[i]%2==0)
+			{
+				System.out.println(a[i]+" ");
+			}
+		}
+		
+		System.out.println("odd values : ");
+		for(i=0;i<a.length; i++)
+		{
+			if(a[i]%2!=0)
+			{
+				System.out.println(a[i]+" ");
+			}
+		}
+		
+		
+	}
+}
