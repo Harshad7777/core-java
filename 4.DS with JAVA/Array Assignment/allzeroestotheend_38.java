@@ -34,8 +34,6 @@ public class allzeroestotheend_38
 	}
 }
 
-
-
 /* public class allzeroestotheend_38
 {
 	public static void main(String x[])
