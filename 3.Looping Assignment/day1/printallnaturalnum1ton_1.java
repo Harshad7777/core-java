@@ -4,7 +4,7 @@ Q1. Write a java program to print all natural numbers from 1 to n. using while l
 
 
 import java.util.*;
-public class printallnaturalnum1ton1
+public class printallnaturalnum1ton_1
 {
 	public static void main(String x[])
 	{
@@ -18,21 +18,15 @@ public class printallnaturalnum1ton1
 	
 		while(i<=n)
 		{
-			System.out.println(i+ "");
+			System.out.print(i+ " ");
 			i++;
 		}
 	}
 }
 
 
-
->javac printallnaturalnum1ton1.java
-
->java printallnaturalnum1ton1
+/* 
+>java printallnaturalnum1ton_1.java
 enter value of n
-5
-1
-2
-3
-4
-5
+10
+1 2 3 4 5 6 7 8 9 10 */

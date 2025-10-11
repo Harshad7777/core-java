@@ -15,7 +15,7 @@ public class PrimeCheck21
 		
 		int num = sc.nextInt();
 		int i = 1;
-		int count=0;
+		int count = 0;
 		
 		while(i<=num)
 		{

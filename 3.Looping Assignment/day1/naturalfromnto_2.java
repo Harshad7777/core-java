@@ -3,7 +3,7 @@ Q2. Write a java program to print all natural numbers in reverse (from n to 1). 
 */
 
 import java.util.*;
-public class naturalfromnto1
+public class naturalfromnto2
 {
 	public static void main (String x[])
 	{
